@@ -1,0 +1,35 @@
+{
+  "name": "users-hexagonal-express",
+  "version": "1.0.0",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "\tjest",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts",
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DanielaMendozaA/users-hexagonal-express.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DanielaMendozaA/users-hexagonal-express/issues"
+  },
+  "homepage": "https://github.com/DanielaMendozaA/users-hexagonal-express#readme",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-validator": "^7.2.1",
+    "mongoose": "^8.9.7",
+    "users-hexagonal-express": "file:"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.1",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.3"
+  }
+}
